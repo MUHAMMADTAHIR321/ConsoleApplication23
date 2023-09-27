@@ -67,7 +67,7 @@ using namespace std;
 			{cout << "Good Bye";
 			break;}
 			default:
-				cout << "Invalid Choice.Please try again";
+				cout << "Invalid Choice.";
 			}
 
 
