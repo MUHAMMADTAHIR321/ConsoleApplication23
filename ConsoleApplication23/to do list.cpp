@@ -26,16 +26,12 @@ int main()
 			cout << "Mark Task as Completed";
 			break;
 		case 4:
-			cout << "Task Deleted";
-			break;
-		case 5:
-			cout << "Quit App";
+				cout << "Good Bye";
 			break;
 		default:
 			cout << "Invalid Choice.Please try again";
 		}
 
-		while (choice != 5)
 
 
 
