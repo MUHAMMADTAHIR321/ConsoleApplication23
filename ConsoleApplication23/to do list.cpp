@@ -5,12 +5,13 @@
 using namespace std;
 
 	void showmenu() {
-		cout << "TO DO LIST\n";
+		cout << "******TO DO LIST ******\n";
 		cout << "MENU\n";
+		cout << "endl";
 		cout << "1. Add Task\n";
 		cout << "2. Display List of Task\n";
 		cout << "3. Mark Task as Completed\n";
-		cout << "4. Quit App\n";
+    	cout << "4. Quit App\n";
 		
 	}
 	int main()
@@ -22,12 +23,12 @@ using namespace std;
 			showmenu();
 
 			int choice;
-			cout << "Enter your Choice";
+			cout << "Enter your Choice: ";
 			cin >> choice;
 
 			switch (choice) {
 			case 1: {
-				cout << "Enter a new Task";
+				cout << "Enter a new Task: ";
 
 				string task;
 				cin.ignore();
@@ -38,7 +39,7 @@ using namespace std;
 			}
 
 			case 2: {
-				cout << "To do List";
+				cout << "To do List:-\n";
 				for (int i = 0; i < tasks.size();i++) {
 					cout << (i + 1) << ". ";
 					if (taskStatus[i]) {
